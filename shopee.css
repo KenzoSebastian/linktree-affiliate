@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    background: red;
+    height: 130vh;
+    background-image: url("shopee.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .hr-content {
+    background-color: rgba(0, 0, 0, 0);
+    width: 30px;
+    height: 3vh;
+    border: #222;
+  }
+  
+  .div-text {
+    background: rgb(225, 215, 217);
+    height: 10vh;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-transform: uppercase;
+  }
+
+  .link {
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 105vh;
+  }
+  
+  .link-1>a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 14px;
+    text-align: left;
+    background-color: rgb(176, 226, 176);
+    border-radius: 7px;
+    margin: 5px 10px;
+    padding: 10px;
+    font-weight: 600px;
+    height: 25px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .link-1>a:hover {
+    background-color: rgb(194, 223, 223);
+    border: 3px solid #222;
+    border-radius: 7px;
+  }
+
+  .link-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 105vh;
+  }
+  
+  .link-2>a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    text-align: left;
+    background-color: rgb(176, 226, 176);
+    border-radius: 7px;
+    margin:10px;
+    padding: 10px;
+    font-weight: 500;
+    height: 25px;
+    width: 200px;
+  }
+  
+  .link-2>a:hover {
+    background-color: rgb(194, 223, 223);
+    border: 3px solid #222;
+    border-radius: 7px;
+  }
+
+  .footer {
+    width: 500px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+  
+  .back {
+    background-color: rgb(235, 228, 228);
+    width: 130px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 110px;
+    text-transform: uppercase;
+  }
+
+  .back:hover {
+    background-color:  rgb(169, 166, 166);
+    padding: 2px;
+  }
+
+  .next {
+    background-color:  rgb(235, 228, 228);
+    width: 130px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 110px;
+    text-transform: uppercase;
+  }
+
+  .next:hover {
+    background-color:  rgb(169, 166, 166);
+    padding: 2px;
+  }
+
+  .back>a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .next>a {
+    text-decoration: none;
+    color: black;
+  }
